@@ -1,0 +1,123 @@
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(#7a1c1c,#b94b4b);
+color:white;
+}
+
+/* MENU */
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:#5a0f0f;
+padding:15px;
+}
+
+nav ul{
+display:flex;
+justify-content:center;
+gap:40px;
+list-style:none;
+margin:0;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.inicio{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding-top: 60px;
+}
+
+.bandeira{
+   width:600px;
+   margin-top:20px;
+}
+
+.descrição{
+    font-size: 22px;
+    text-align: center;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.comidas{
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:center;
+   gap:30px;
+   padding:50px;
+}
+
+.titulo-comida{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.restaurantes{
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    flex-direction: column;
+    display: flex;
+    margin-top: 40px;
+}
+
+.card{
+width:300px;
+background:rgba(255,255,255,0.15);
+padding:20px;
+border-radius:10px;
+text-align:center;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.tabela-restaurantes{
+width:100%;
+max-width:1000px;
+margin:auto;
+border-spacing:30px;
+text-align:center;
+}
+
+.tabela-restaurantes img{
+width:180px;
+border-radius:10px;
+}
+
+.tabela-restaurantes td{
+background:rgba(255,255,255,0.15);
+padding:20px;
+border-radius:10px;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 28px;
+}
